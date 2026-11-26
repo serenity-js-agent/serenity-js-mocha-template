@@ -11,9 +11,9 @@ window.__SERENITY_REPORT_DATA__ = {
       "compromised": 0,
       "error": 0
     },
-    "duration": 418,
-    "startedAt": "2026-11-23T23:46:59.378Z",
-    "finishedAt": "2026-11-23T23:46:59.796Z",
+    "duration": 489,
+    "startedAt": "2026-11-26T00:01:08.953Z",
+    "finishedAt": "2026-11-26T00:01:09.442Z",
     "testRunner": "Mocha"
   },
   "scenarios": [
@@ -21,8 +21,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "GET /v4/?expr supports calculating a single expression",
       "category": "Math-js API",
       "outcome": "SUCCESS",
-      "duration": 236,
-      "startedAt": "2026-11-23T23:46:59.378Z",
+      "duration": 455,
+      "startedAt": "2026-11-26T00:01:08.953Z",
       "source": {
         "path": "/__w/serenity-js-mocha-template/serenity-js-mocha-template/spec/math-js_api.spec.ts"
       },
@@ -40,10 +40,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Apisitt sends a request to calculate 2 + 2",
           "outcome": "SUCCESS",
-          "duration": 211,
+          "duration": 423,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-11-23T23:46:59.390Z",
+          "startedAt": "2026-11-26T00:01:08.969Z",
           "location": {
             "path": "/__w/serenity-js-mocha-template/serenity-js-mocha-template/spec/math-js_api.spec.ts",
             "line": 20,
@@ -51,7 +51,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/2/serenity-js-mocha-template-1/artifact-get-http---api-mathjs-org-v4-expr-2-20-2b-202-4965eb6371.json",
+              "path": "test-runs/3/serenity-js-mocha-template-1/artifact-get-http---api-mathjs-org-v4-expr-2-20-2b-202-7b7c9b3693.json",
               "type": "screenshot"
             }
           ],
@@ -60,17 +60,17 @@ window.__SERENITY_REPORT_DATA__ = {
             "url": "http://api.mathjs.org/v4?expr=2%20%2B%202",
             "requestHeaders": "Accept: application/json, text/plain, */*\nUser-Agent: axios/1.20.0\nAccept-Encoding: gzip, compress, deflate, br",
             "statusCode": 200,
-            "responseHeaders": "access-control-allow-headers: Content-Type, X-Requested-With\naccess-control-allow-methods: GET, POST, OPTIONS\naccess-control-allow-origin: *\ncontent-length: 1\ncontent-type: text/html; charset=utf-8\ndate: Mon, 23 Nov 2026 23:46:59 GMT\netag: W/\"1-G2RTiSRzpGfQc3LUXrBavCAxZHo\"\nnel: {\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}\nreport-to: {\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=Dj4Oo3CQDUL5FomeJWeEZWNPgm84hOjQh8tD12TMhUA%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1795477619\"}],\"max_age\":3600}\nreporting-endpoints: heroku-nel=\"https://nel.heroku.com/reports?s=Dj4Oo3CQDUL5FomeJWeEZWNPgm84hOjQh8tD12TMhUA%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1795477619\"\nserver: Heroku\nvary: Accept-Encoding\nvia: 1.1 heroku-router\nx-powered-by: Express\nx-ratelimit-limit: 1000000\nx-ratelimit-remaining: 996331\nx-ratelimit-reset: 1795537377\nconnection: close",
+            "responseHeaders": "access-control-allow-headers: Content-Type, X-Requested-With\naccess-control-allow-methods: GET, POST, OPTIONS\naccess-control-allow-origin: *\ncontent-length: 1\ncontent-type: text/html; charset=utf-8\ndate: Thu, 26 Nov 2026 00:01:09 GMT\netag: W/\"1-G2RTiSRzpGfQc3LUXrBavCAxZHo\"\nnel: {\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}\nreport-to: {\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=4z4L%2BAXuiKl8hNwWvOeuWhj%2BGVMjBaYHelE8AlRjT1Q%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1795651269\"}],\"max_age\":3600}\nreporting-endpoints: heroku-nel=\"https://nel.heroku.com/reports?s=4z4L%2BAXuiKl8hNwWvOeuWhj%2BGVMjBaYHelE8AlRjT1Q%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1795651269\"\nserver: Heroku\nvary: Accept-Encoding\nvia: 1.1 heroku-router\nx-powered-by: Express\nx-ratelimit-limit: 1000000\nx-ratelimit-remaining: 998426\nx-ratelimit-reset: 1795727140\nconnection: close",
             "responseBody": "4"
           }
         },
         {
           "name": "Apisitt ensures that the body of the last response does equal 4",
           "outcome": "SUCCESS",
-          "duration": 1,
+          "duration": 2,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-11-23T23:46:59.601Z",
+          "startedAt": "2026-11-26T00:01:09.393Z",
           "location": {
             "path": "/__w/serenity-js-mocha-template/serenity-js-mocha-template/spec/math-js_api.spec.ts",
             "line": 21,
@@ -174,6 +174,54 @@ window.__SERENITY_REPORT_DATA__ = {
               }
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "3",
+          "timestamp": "2026-11-26T00:01:08.953Z",
+          "duration": 455,
+          "activities": [
+            {
+              "name": "Apisitt sends a request to calculate 2 + 2",
+              "outcome": "SUCCESS",
+              "duration": 423,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-11-26T00:01:08.969Z",
+              "location": {
+                "path": "/__w/serenity-js-mocha-template/serenity-js-mocha-template/spec/math-js_api.spec.ts",
+                "line": 20,
+                "column": 22
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/3/serenity-js-mocha-template-1/artifact-get-http---api-mathjs-org-v4-expr-2-20-2b-202-7b7c9b3693.json",
+                  "type": "screenshot"
+                }
+              ],
+              "restQuery": {
+                "method": "GET",
+                "url": "http://api.mathjs.org/v4?expr=2%20%2B%202",
+                "requestHeaders": "Accept: application/json, text/plain, */*\nUser-Agent: axios/1.20.0\nAccept-Encoding: gzip, compress, deflate, br",
+                "statusCode": 200,
+                "responseHeaders": "access-control-allow-headers: Content-Type, X-Requested-With\naccess-control-allow-methods: GET, POST, OPTIONS\naccess-control-allow-origin: *\ncontent-length: 1\ncontent-type: text/html; charset=utf-8\ndate: Thu, 26 Nov 2026 00:01:09 GMT\netag: W/\"1-G2RTiSRzpGfQc3LUXrBavCAxZHo\"\nnel: {\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}\nreport-to: {\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=4z4L%2BAXuiKl8hNwWvOeuWhj%2BGVMjBaYHelE8AlRjT1Q%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1795651269\"}],\"max_age\":3600}\nreporting-endpoints: heroku-nel=\"https://nel.heroku.com/reports?s=4z4L%2BAXuiKl8hNwWvOeuWhj%2BGVMjBaYHelE8AlRjT1Q%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1795651269\"\nserver: Heroku\nvary: Accept-Encoding\nvia: 1.1 heroku-router\nx-powered-by: Express\nx-ratelimit-limit: 1000000\nx-ratelimit-remaining: 998426\nx-ratelimit-reset: 1795727140\nconnection: close",
+                "responseBody": "4"
+              }
+            },
+            {
+              "name": "Apisitt ensures that the body of the last response does equal 4",
+              "outcome": "SUCCESS",
+              "duration": 2,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-11-26T00:01:09.393Z",
+              "location": {
+                "path": "/__w/serenity-js-mocha-template/serenity-js-mocha-template/spec/math-js_api.spec.ts",
+                "line": 21,
+                "column": 24
+              }
+            }
+          ]
         }
       ],
       "cast": [
@@ -210,8 +258,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "POST /v4 supports calculating multiple expressions in one request",
       "category": "Math-js API",
       "outcome": "SUCCESS",
-      "duration": 179,
-      "startedAt": "2026-11-23T23:46:59.617Z",
+      "duration": 30,
+      "startedAt": "2026-11-26T00:01:09.412Z",
       "source": {
         "path": "/__w/serenity-js-mocha-template/serenity-js-mocha-template/spec/math-js_api.spec.ts"
       },
@@ -229,10 +277,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Apisitt sends a request to calculate 2 + 2, 5 - 3",
           "outcome": "SUCCESS",
-          "duration": 164,
+          "duration": 14,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-11-23T23:46:59.620Z",
+          "startedAt": "2026-11-26T00:01:09.416Z",
           "location": {
             "path": "/__w/serenity-js-mocha-template/serenity-js-mocha-template/spec/math-js_api.spec.ts",
             "line": 39,
@@ -240,7 +288,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/2/serenity-js-mocha-template-1/artifact-post-http---api-mathjs-org-v4-1dc03aaa1c.json",
+              "path": "test-runs/3/serenity-js-mocha-template-1/artifact-post-http---api-mathjs-org-v4-ecf24d0392.json",
               "type": "screenshot"
             }
           ],
@@ -250,7 +298,7 @@ window.__SERENITY_REPORT_DATA__ = {
             "requestHeaders": "Accept: application/json, text/plain, */*\nContent-Type: application/json\nUser-Agent: axios/1.20.0\nContent-Length: 26\nAccept-Encoding: gzip, compress, deflate, br",
             "requestBody": "{\"expr\":[\"2 + 2\",\"5 - 3\"]}",
             "statusCode": 200,
-            "responseHeaders": "access-control-allow-headers: Content-Type, X-Requested-With\naccess-control-allow-methods: GET, POST, OPTIONS\naccess-control-allow-origin: *\ncontent-length: 33\ncontent-type: application/json; charset=utf-8\ndate: Mon, 23 Nov 2026 23:46:59 GMT\netag: W/\"21-PDaWl99xbv/H4ay/y9fMm3Dv4GM\"\nnel: {\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}\nreport-to: {\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=Dj4Oo3CQDUL5FomeJWeEZWNPgm84hOjQh8tD12TMhUA%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1795477619\"}],\"max_age\":3600}\nreporting-endpoints: heroku-nel=\"https://nel.heroku.com/reports?s=Dj4Oo3CQDUL5FomeJWeEZWNPgm84hOjQh8tD12TMhUA%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1795477619\"\nserver: Heroku\nvary: Accept-Encoding\nvia: 1.1 heroku-router\nx-powered-by: Express\nx-ratelimit-limit: 1000000\nx-ratelimit-remaining: 995690\nx-ratelimit-reset: 1795537385\nconnection: close",
+            "responseHeaders": "access-control-allow-headers: Content-Type, X-Requested-With\naccess-control-allow-methods: GET, POST, OPTIONS\naccess-control-allow-origin: *\ncontent-length: 33\ncontent-type: application/json; charset=utf-8\ndate: Thu, 26 Nov 2026 00:01:09 GMT\netag: W/\"21-PDaWl99xbv/H4ay/y9fMm3Dv4GM\"\nnel: {\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}\nreport-to: {\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=4z4L%2BAXuiKl8hNwWvOeuWhj%2BGVMjBaYHelE8AlRjT1Q%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1795651269\"}],\"max_age\":3600}\nreporting-endpoints: heroku-nel=\"https://nel.heroku.com/reports?s=4z4L%2BAXuiKl8hNwWvOeuWhj%2BGVMjBaYHelE8AlRjT1Q%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1795651269\"\nserver: Heroku\nvary: Accept-Encoding\nvia: 1.1 heroku-router\nx-powered-by: Express\nx-ratelimit-limit: 1000000\nx-ratelimit-remaining: 998625\nx-ratelimit-reset: 1795727156\nconnection: close",
             "responseBody": "{\n    \"result\": [\n        \"4\",\n        \"2\"\n    ],\n    \"error\": null\n}"
           }
         },
@@ -260,7 +308,7 @@ window.__SERENITY_REPORT_DATA__ = {
           "duration": 0,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-11-23T23:46:59.785Z",
+          "startedAt": "2026-11-26T00:01:09.431Z",
           "location": {
             "path": "/__w/serenity-js-mocha-template/serenity-js-mocha-template/spec/math-js_api.spec.ts",
             "line": 43,
@@ -366,6 +414,55 @@ window.__SERENITY_REPORT_DATA__ = {
               }
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "3",
+          "timestamp": "2026-11-26T00:01:08.953Z",
+          "duration": 30,
+          "activities": [
+            {
+              "name": "Apisitt sends a request to calculate 2 + 2, 5 - 3",
+              "outcome": "SUCCESS",
+              "duration": 14,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-11-26T00:01:09.416Z",
+              "location": {
+                "path": "/__w/serenity-js-mocha-template/serenity-js-mocha-template/spec/math-js_api.spec.ts",
+                "line": 39,
+                "column": 22
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/3/serenity-js-mocha-template-1/artifact-post-http---api-mathjs-org-v4-ecf24d0392.json",
+                  "type": "screenshot"
+                }
+              ],
+              "restQuery": {
+                "method": "POST",
+                "url": "http://api.mathjs.org/v4",
+                "requestHeaders": "Accept: application/json, text/plain, */*\nContent-Type: application/json\nUser-Agent: axios/1.20.0\nContent-Length: 26\nAccept-Encoding: gzip, compress, deflate, br",
+                "requestBody": "{\"expr\":[\"2 + 2\",\"5 - 3\"]}",
+                "statusCode": 200,
+                "responseHeaders": "access-control-allow-headers: Content-Type, X-Requested-With\naccess-control-allow-methods: GET, POST, OPTIONS\naccess-control-allow-origin: *\ncontent-length: 33\ncontent-type: application/json; charset=utf-8\ndate: Thu, 26 Nov 2026 00:01:09 GMT\netag: W/\"21-PDaWl99xbv/H4ay/y9fMm3Dv4GM\"\nnel: {\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}\nreport-to: {\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=4z4L%2BAXuiKl8hNwWvOeuWhj%2BGVMjBaYHelE8AlRjT1Q%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1795651269\"}],\"max_age\":3600}\nreporting-endpoints: heroku-nel=\"https://nel.heroku.com/reports?s=4z4L%2BAXuiKl8hNwWvOeuWhj%2BGVMjBaYHelE8AlRjT1Q%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1795651269\"\nserver: Heroku\nvary: Accept-Encoding\nvia: 1.1 heroku-router\nx-powered-by: Express\nx-ratelimit-limit: 1000000\nx-ratelimit-remaining: 998625\nx-ratelimit-reset: 1795727156\nconnection: close",
+                "responseBody": "{\n    \"result\": [\n        \"4\",\n        \"2\"\n    ],\n    \"error\": null\n}"
+              }
+            },
+            {
+              "name": "Apisitt ensures that the body of the last response does equal { result: [ \"4\", \"2\" ], error: null }",
+              "outcome": "SUCCESS",
+              "duration": 0,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-11-26T00:01:09.431Z",
+              "location": {
+                "path": "/__w/serenity-js-mocha-template/serenity-js-mocha-template/spec/math-js_api.spec.ts",
+                "line": 43,
+                "column": 24
+              }
+            }
+          ]
         }
       ],
       "cast": [
@@ -451,6 +548,32 @@ window.__SERENITY_REPORT_DATA__ = {
         "consistency": 100,
         "completeness": 100
       }
+    },
+    {
+      "timestamp": "2026-11-26T00:01:08.953Z",
+      "duration": 489,
+      "outcomes": {
+        "passed": 2,
+        "failed": 0,
+        "pending": 0,
+        "skipped": 0,
+        "compromised": 0,
+        "error": 0
+      },
+      "label": "3",
+      "slowest": 455,
+      "fastest": 30,
+      "average": 243,
+      "commit": "2b8c169c870191f058c6497141f2d629f442203f",
+      "branch": "main",
+      "ciJobUrl": "https://github.com/serenity-js-agent/serenity-js-mocha-template/actions/runs/45725506256",
+      "repositoryUrl": "https://github.com/serenity-js-agent/serenity-js-mocha-template",
+      "score": {
+        "confidence": 100,
+        "passRate": 100,
+        "consistency": 100,
+        "completeness": 100
+      }
     }
   ],
   "tags": [
@@ -478,7 +601,7 @@ window.__SERENITY_REPORT_DATA__ = {
     "nodeVersion": "v24.22.3",
     "os": {
       "name": "linux",
-      "version": "7.0.0-1016-aws",
+      "version": "7.0.0-1020-azure",
       "arch": "x64"
     },
     "serenityVersion": "3.49.1",
@@ -489,12 +612,12 @@ window.__SERENITY_REPORT_DATA__ = {
     "browsers": [],
     "ci": {
       "provider": "GitHub Actions",
-      "buildNumber": "2",
+      "buildNumber": "3",
       "branch": "main",
-      "commit": "3ddbd96d95e875b7b133f09ff84c4b9d12d29f27",
-      "commitMessage": "fix(deps): update serenity/js and playwright to ^3.49.1 (#1087)",
+      "commit": "2b8c169c870191f058c6497141f2d629f442203f",
+      "commitMessage": "chore(deps): update dependency @types/node to ^24.19.3 (#1088)",
       "commitAuthor": "renovate[bot]",
-      "jobUrl": "https://github.com/serenity-js-agent/serenity-js-mocha-template/actions/runs/45291564192",
+      "jobUrl": "https://github.com/serenity-js-agent/serenity-js-mocha-template/actions/runs/45725506256",
       "workflow": "build",
       "repositoryUrl": "https://github.com/serenity-js-agent/serenity-js-mocha-template",
       "triggeredBy": "serenity-js-agent"
@@ -533,6 +656,7 @@ window.__SERENITY_REPORT_DATA__ = {
             "outcome": "SUCCESS",
             "executionHistory": [
               "SUCCESS",
+              "SUCCESS",
               "SUCCESS"
             ]
           },
@@ -540,6 +664,7 @@ window.__SERENITY_REPORT_DATA__ = {
             "name": "POST /v4 supports calculating multiple expressions in one request",
             "outcome": "SUCCESS",
             "executionHistory": [
+              "SUCCESS",
               "SUCCESS",
               "SUCCESS"
             ]
